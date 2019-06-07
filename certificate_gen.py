@@ -1,15 +1,4 @@
-"""
-Code Challenge 1
 
-Certificate Generator
-
-Develop a Python code that can generate certificates in image format. 
-It must take names and other required information from the user and generates 
-certificate of participation in a Python Bootcamp conducted by Forsk.
-
-Certificate should have Forsk Seal, Forsk Signature, Different Fonts
-
-"""
 from PIL import ImageDraw
 from PIL import Image, ImageEnhance
 from PIL import ImageFont
