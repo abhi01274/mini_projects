@@ -101,8 +101,7 @@ for (q, i) in enumerate(np.arange(0, len(questionCnts), 5)):
 		# bubbled-in answer
 		if bubbled is None or total > bubbled[0]:
 			bubbled = (total, j)
-    # initialize the contour color and the index of the
-	# *correct* answer
+    # initialize the contour color and the index of the *correct* answer
 	color = (0, 0, 255)
 	k = ANSWER_KEY[q]
  
