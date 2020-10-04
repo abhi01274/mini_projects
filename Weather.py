@@ -5,7 +5,7 @@ import requests
 
 tk= Tk()
 
-tk.geometry("450x400+370+50")
+tk.geometry("450x450+370+50")
 tk.config(bg="Beige")
 
 
