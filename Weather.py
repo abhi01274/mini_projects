@@ -47,7 +47,7 @@ def weather():
     temperature.set(g)
 
     l1 = Label(text="Weather Condition :")
-    l1.place(x=90, y=140)
+    l1.place(x=90, y=141)
 
     e1 = Entry(textvariable=weather1)
     e1.place(x=220, y=140)
