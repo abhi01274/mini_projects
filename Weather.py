@@ -13,7 +13,7 @@ tk.config(bg="Beige")
 l=Label(text="Enter the city name",width=38,height=2,font=('Times New Roman',10,'bold'))
 l.place(x=90,y=20)
 e= Entry(width=44)
-e.place(x=90,y=70)
+e.place(x=92,y=70)
 
 weather1= StringVar()
 sunrise= StringVar()
