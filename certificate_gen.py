@@ -32,7 +32,7 @@ draw.text((300,30), "Certificate of Participation",(202,1,127), font=select_font
 select_font2= ImageFont.truetype("Xoxoxa.ttf", size=40 )
 draw.text((450,140), "This is the certification for the projectX ",(20,190,27), font=select_font2)
 
-draw.text((600,210), "Is Given To",(20,190,27), font=select_font2)
+draw.text((600,210), "Is Given To",(20,192,27), font=select_font2)
 
 select_font3= ImageFont.truetype("Xerox Serif Wide Italic.ttf", size=50 )
 draw.text((500,300), str1 ,(201,19,27), font=select_font3)
