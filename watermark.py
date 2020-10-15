@@ -20,8 +20,8 @@ image1 = Image.open("document.png")
 image2 = Image.open("forsk-logo.png")
 
 # Make the images of uniform size
-image3 = changeImageSize(1200, 600, image1)
-image4 = changeImageSize(1200, 600, image2)
+image3 = changeImageSize(1205, 605, image1)
+image4 = changeImageSize(1205, 605, image2)
 
 # Make sure images got an alpha channel
 image5 = image3.convert("RGBA")
