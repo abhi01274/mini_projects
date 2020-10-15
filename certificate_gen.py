@@ -27,7 +27,7 @@ img_w, img_h = im1.size
 draw = ImageDraw.Draw(im1)
 
 select_font= ImageFont.truetype("Xerox Serif Wide Italic.ttf", size=70 )
-draw.text((300,30), "Certificate of Participation",(202,1,127), font=select_font)
+draw.text((300,35), "Certificate of Participation",(202,1,127), font=select_font)
 
 select_font2= ImageFont.truetype("Xoxoxa.ttf", size=40 )
 draw.text((450,140), "This is the certification for the projectX ",(20,190,27), font=select_font2)
